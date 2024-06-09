@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Landing Page</title>
+    
+</head>
+<body>
+    <header> <!--navegação-->
+        <nav id="navbar">
+            <i class="fa-sharp fa-solid fa-hand-holding-hand" id="nav_logo"> #AJUDE RS</i>
+            <ul id="nav_list">
+                <li class="nav_item ">
+                    <a href="index.html">Início</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="contribuicao.html">Como Contribuir</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="doacao.html">Doações</a>
+                </li>
+            </ul>
+
+            <button class="btn-geral">
+               <a href="doacao.html"> doe aqui</a>
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="menu_mobile">
+            <ul id="mobile_nav_list">
+                <li class="nav_item ">
+                    <a href="index.html">Início</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="contribuicao.html">Como Contribuir</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="doacao.html">Doações</a>
+                </li>
+            </ul>
+
+            <button class="btn-geral">
+                <a href="doacao.html"> doe aqui</a>
+            </button>
+
+        </div>
+       <script src="src/javascript/script.js"></script>
+    </header>
+
+    <main id="content">
+        
+        <section id="menu"> <!--menu-->
+            <h2 class="section-title"> Principais arrecadações</h2>
+            <h3 class="section-subtitle"> Saiba o que doar</h3>
+
+            <div id="dishes">
+                <div class="dish"> <!--doação 01-->
+                    <div class="dish-heart">
+                        <i class=" fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="img/agua.webp" alt="" class="dish-image" width="180px" >
+                    <h3 class="dish-title">
+                        Água
+                    </h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quis ipsa earum.
+                    </span>
+
+                    <div class="dish-price">
+                        <h4></h4>
+                        <button class="btn-geral">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+
+                    </label>
+                    <input type="number" id="numero" min="1" max="1000" step="1" class="btn-geral">
+                    </div>
+                
+                </div>
+
+                <div class="dish"> <!-- doação 02-->
+                    <div class="dish-heart">
+                        <i class=" fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="img/cesta.webp" alt="" class="dish-image" width="180px">
+                    <h3 class="dish-title">
+                        Cesta básica
+                    </h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quis ipsa earum.
+                    </span>
+
+
+                    <div class="dish-price">
+                        <button class="btn-geral">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+
+                    </label>
+                    <input type="number" id="numero" min="1" max="1000" step="1" class="btn-geral">
+
+                    </div>
+                
+                </div>
+
+                <div class="dish"> <!--doação 03-->
+                    <div class="dish-heart">
+                        <i class=" fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="img/remedios4.jpg" alt="" class="dish-image" width="180px">
+                    <h3 class="dish-title">
+                        Remédios essenciais
+                    </h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quis ipsa earum.
+                    </span>
+
+
+                    <div class="dish-price">
+                        <h4></h4>
+                        <button class="btn-geral">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                        <label for="numero">
+                            
+                        </label>
+                        <input type="number" id="numero" min="1" max="1000" step="1" class="btn-geral">
+                        
+
+                    </div>
+                
+                </div>
+
+                <div class="dish"> <!--doação 04-->
+                    <div class="dish-heart">
+                        <i class=" fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="img/cobertores.jpg" alt="" class="dish-image" width="180px">
+                    <h3 class="dish-title">
+                        Cobertores e agasalhos
+                    </h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quis ipsa earum.
+                    </span>
+
+                    <div class="dish-price">
+                        <button class="btn-geral">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+
+                    </label>
+                    <input type="number" id="numero" min="1" max="1000" step="1" class="btn-geral">
+
+                    </div>
+                
+                </div>
+                
+            </div>
+        </section>
+
+        
+
+    </main>
+
+    <footer>
+        <div id="footer_items">
+            <span id="copyrigth">
+                &copy; Grupo 04 
+            </span>
+        </div>
+    </footer>
+    
+</body>
+</html>
